@@ -1,18 +1,55 @@
 # healthcare-management
 
-# React + Vite
+# Frontend (React + Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Framework: React for UI, Vite for fast build and development environment.
 
-Currently, two official plugins are available:
+Core Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Authentication: Login/Signup for admins, doctors, and patients.
 
-## React Compiler
+Dashboard: Displays key metrics like active patients, appointments, and revenues.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Patient Management: Add, view, edit, and delete patient records.
 
-## Expanding the ESLint configuration
+Appointment Scheduling: Interactive calendar to manage appointments.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Doctor Profiles: Display specialization, availability, and patient feedback.
+
+Billing & Reports: Generate invoices and view treatment summaries.
+
+Responsive Design: Works across desktop, tablet, and mobile.
+
+Technologies:
+
+React (components, hooks, routing)
+
+Axios (API communication)
+
+TailwindCSS or Material UI (styling)
+
+React Router (navigation)
+
+Chart.js / Recharts (data visualization)
+
+
+
+# Backend
+ 
+Tech Stack: Node.js + Express + MongoDB (MERN architecture)
+
+Core Modules:
+
+User Management: Register, login (JWT-based authentication).
+
+Patient Module: CRUD operations for patient data.
+
+Doctor Module: Manage doctor details, specialization, and availability.
+
+Appointment Module: Book, update, cancel appointments.
+
+Billing Module: Store payment history and invoices.
+
+API Layer: RESTful APIs for frontend integration.
+
+Database: MongoDB for scalable and flexible data storage.
